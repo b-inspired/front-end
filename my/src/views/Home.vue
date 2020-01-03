@@ -8,6 +8,7 @@
         <explore-moods
             class="explore-moods"
         />
+        <daily-inspiring/>
     </main>
 </template>
 
@@ -15,12 +16,14 @@
 import NavBar from '../components/sections/NavBar'
 import HeroHeader from '../components/sections/HeroHeader'
 import ExploreMoods from '../components/sections/ExploreMoods'
+import DailyInspiring from '../components/sections/DailyInspiring'
 
 export default {
     name: 'Home',
     components:{
         NavBar,
         ExploreMoods,
+        DailyInspiring,
         HeroHeader
     }
 }
