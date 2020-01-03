@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import logo from './Logo'
-import Buttoncta from './ButtonCTA'
+import logo from '../ui/Logo'
+import Buttoncta from '../ui/ButtonCTA'
 
 export default {
     name: 'NavBar',

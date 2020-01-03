@@ -1,6 +1,6 @@
 <template>
 <a>
-  <img src="../assets/NavBrand.png" class="img-fluid" alt="Responsive image">
+  <img src="@/assets/NavBrand.png" class="img-fluid" alt="Responsive image">
 </a>
 </template>
 

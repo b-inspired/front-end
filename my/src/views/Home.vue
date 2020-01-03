@@ -1,28 +1,38 @@
 <template>
     <main> 
-        <nav-bar/>
+        <nav-bar
+            class="hero"/>
         <hero-header
             class="hero"
+        />
+        <explore-moods
+            class="explore-moods"
         />
     </main>
 </template>
 
 <script>
-import NavBar from '../components/NavBar'
-import HeroHeader from '../components/HeroHeader'
+import NavBar from '../components/sections/NavBar'
+import HeroHeader from '../components/sections/HeroHeader'
+import ExploreMoods from '../components/sections/ExploreMoods'
 
 export default {
     name: 'Home',
     components:{
         NavBar,
+        ExploreMoods,
         HeroHeader
     }
 }
 </script>
 
 <style>
+.explore-moods{
+        background-color: #7683BF!important;
+
+}
   h1{
-        color: #344491!important;
+        color: #344491;
         font-family: Bw Modelica;
         font-style: normal;
         font-weight: 800;
